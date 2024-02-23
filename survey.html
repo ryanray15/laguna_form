@@ -5,38 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="flex justify-center">
-        <form id="register">
-            <h3>Registration</h3>
+        <form id="survey">
+            <h3>Survey Form</h3>
             <div>
-                <label>Username:</label> <br />
-                <input type="text" size="40">
+                <label>Date:</label>
+                <input type="datetime-local" name="date">
             </div>
             <div>
-                <label>Password</label> <br />
-                <input type="password" size="40">
+                <label>Name:</label>
+                <input type="text" size="30">
+                <label>Email:</label>
+                <input type="password" size="30">
             </div>
             <div>
-                <label>Confirm Password</label> <br />
-                <input type="password" size="40">
+                <p>Is this the first time you are using our website?</p>
+                <input type="radio" name="1st">Yes
+                <input type="radio" name="1st">No
             </div>
             <div>
-                <label>First Name:</label> <br />
-                <input type="text" size="40">
+                <p>Do you find our website hard to use?</p>
+                <input type="radio" name="2nd">Yes
+                <input type="radio" name="2nd">No
             </div>
             <div>
-                <label>Middle Name:</label> <br />
-                <input type="text" size="40">
+                <p>Would you suggest friends and colleagues?</p>
+                <input type="radio" name="3rd">Yes
+                <input type="radio" name="3rd">No
             </div>
             <div>
-                <label>Last Name:</label> <br />
-                <input type="text" size="40">
+                <p>Would you use our website again?</p>
+                <input type="radio" name="4th">Yes
+                <input type="radio" name="4th">No
             </div>
             <div>
-                <label>Mobile No.:</label> <br />
-                <input type="text" size="40">
+                <p>How satisfied are you?</p>
+                <input type="radio" name="5th">Unsatisfied
+                <input type="radio" name="5th">Barely Satisfied
+                <input type="radio" name="5th">Somewhat Satisfied
+                <input type="radio" name="5th">Satisfied
+            </div>
+            <div>
+                <label>Comments and Suggestions:</label> </br>
+                <input type="text" size="100">
             </div>
             <div>
                 <input type="submit" value="Submit">

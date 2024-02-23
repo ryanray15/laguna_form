@@ -9,7 +9,20 @@ body {
 
 #login, #register {
     font-family: "Poppins", sans-serif;
-    width: 50%;
+    width: 25%;
+    background: #b3b3b3;
+    opacity: 0.9;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding: 3rem;
+    border-radius: 45px;
+}
+
+#survey {
+    font-family: "Poppins", sans-serif;
+    width: 60%;
     background: #b3b3b3;
     opacity: 0.9;
     margin-top: 50px;
